@@ -1,0 +1,65 @@
+Notas:
+-----
+
+Chip Claro
+Número: 291 4745564
+Consultar saldo: *611· o ver Mi Claro
+
+
+Shield SIM900
+-------------
+Jumper configuracion + info
+https://www.crcibernetica.com/sim900-gsm-gprs-shield-for-arduino/
+
+// Pin GSM TX 2
+// Pin GSM RX 3
+
+
+Ejemplos:
+http://rogerbit.com/wprb/2018/06/subir-datos-de-temperatura-con-sim900-a-thingspeak/
+
+
+----------------------------------------------------------------------------------------------------
+thingspeak
+----------
+mapouso86@gmail.com
+Mapxxx33
+
+Sensor publico
+https://thingspeak.com/channels/788525
+ 
+KEY = IX1M46AF2ZWGIQYJ
+
+Request:
+numdata=inet.httpGET("api.thingspeak.com", 80, "/update?api_key=IX1M46AF2ZWGIQYJ&field1=1.2345", msg, 200);
+
+----------------------------------------------------------------------------------------------------
+SCT0133 Hall Pinza - Sensor de corriente 
+---------------------------------------------
+
+SCT013 30A/1V ---> Para 30 Amperes nos entrega 1Volt
+
+--------------///
+https://naylampmechatronics.com/blog/51_tutorial-sensor-de-corriente-ac-no-invasivo-s.html
+
+
+
+------------///
+https://programarfacil.com/blog/arduino-blog/sct-013-consumo-electrico-arduino/
+Podemos comprar diferentes tipos de sensores de corriente alterna SCT-013 que se pueden organizar 
+en dos grupos: Los que proporcionan una corriente o los que proporcionan un voltaje. 
+
+La gran diferencia entre ellos es que en los primeros no viene incluida una resistencia de carga y 
+en los segundos sí.
+
+El SCT-013-000 (100A : 50mA) es el único que nos proporciona una corriente y no tiene resistencia de carga. 
+Puede medir una corriente de entre 50 mA y 100 A.
+
+
+Instalando la librería Emonlib --> Uso de libreria Emonlib para calculo del sensor
+
+
+------------///
+*611# llamar
+
+----------------------------------------------------------------------------------------------------
